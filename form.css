@@ -8,3 +8,99 @@
   --colorForAll: #004432;
   --loginColor: #f7b731;
 }
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: var(--colorForAll);
+}
+.container {
+  width: 95%;
+  min-width: 600px;
+  max-width: 850px;
+  height: 73%;
+  /* background-color: red; */
+  margin: 50px auto 0px auto;
+}
+.container .container_content {
+  width: 48%;
+  height: 100%;
+  background-color: white;
+  padding: 35px 20px;
+  text-align: center;
+  color: var(--colorForAll);
+  display: inline-block;
+}
+.container .container_content .heading_section {
+  text-align: justify;
+  position: relative;
+  left: 10%;
+}
+.container .container_content h1,
+h2 {
+  letter-spacing: 2px;
+  margin: 0px auto;
+}
+.container .container_content a {
+  color: #f7b731;
+}
+.container .container_content .heading_section p {
+  margin: 20px 0px;
+}
+.container .container_content input {
+  padding: 10px 15px;
+  width: 95%;
+  max-width: 80%;
+  margin-bottom: 25px;
+  border: 2px solid var(--colorForAll);
+  border-radius: 15px;
+}
+.container .container_content input[type="button"] {
+  background-color: var(--colorForAll);
+  color: rgba(255, 255, 255, 0.923);
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.container .container_content .other_signUP_area {
+  text-align: center;
+}
+.container .container_content .other_signUP_area p {
+  display: inline-block;
+}
+.container .container_content .other_signUP_area span {
+  display: inline-block;
+  width: 25%;
+  border-bottom: 2px solid gray;
+}
+.container .container_content .other_signUP_area i {
+  padding-top: 10px;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+i[class="fa-facebook"] {
+  background-color: #1877f2;
+}
+
+/* container bg area */
+.container .container_rightBg {
+  width: 52%;
+  height: 100%;
+  float: right;
+  padding: 20px;
+  background-color: #eef2e3;
+  background-image: url("images/volunteerTwo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container .container_rightBg h1 {
+  position: relative;
+  top: 6%;
+  left: 20%;
+  color: var(--colorForAll);
+  text-transform: capitalize;
+  font-weight: 600;
+}
