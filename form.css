@@ -63,6 +63,13 @@ h2 {
   font-weight: 600;
   font-size: 18px;
   margin-bottom: 10px;
+  transition: all 0.3s;
+  border: none;
+}
+.container .container_content input[type="button"]:hover {
+  background-color: #046d51;
+  border: none;
+  letter-spacing: 8px;
 }
 .container .container_content .other_signUP_area {
   text-align: center;
