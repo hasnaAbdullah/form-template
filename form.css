@@ -86,6 +86,7 @@ h2 {
   padding-top: 10px;
   font-size: 30px;
   letter-spacing: 10px;
+  transition: all 0.4s;
 }
 .container .container_content .other_signUP_area i:hover {
   transform: scale(1.3);
